@@ -56,7 +56,7 @@ justify-content: center;
 `;
 
 const Skill = styled.div`
-width: 100%;
+  width: 100%;
   max-width: 500px;
   background: ${({ theme }) => theme.card};
   border: 0.1px solid #854CE6;

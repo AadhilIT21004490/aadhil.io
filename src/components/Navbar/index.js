@@ -3,6 +3,7 @@ import styled, { useTheme } from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 import {DiCssdeck} from "react-icons/di";
 import {FaBars} from "react-icons/fa";
+import { Bio } from '../../data/constants';
 
 
 const Nav = styled.div`
@@ -103,7 +104,7 @@ border: 1.8px solid ${({ theme }) => theme.primary};
 justify-content: center;
 display: flex;
 align-items: center;
-height: 70%;
+height: 45px;
 border-radius: 20px;
 color: ${({ theme }) => theme.primary};
 cursor: pointer;
@@ -161,6 +162,7 @@ const MobileMenuLinks = styled(LinkR)`
   }
 `;
 
+
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   const theme = useTheme();
@@ -190,7 +192,8 @@ const Navbar = () => {
         <NavLink href='#education'>Education</NavLink>
       </NavItems>
       <ButtonContainer>
-        <GitHubButton >Github Profile</GitHubButton>
+        <NavLink href={Bio.github}>
+        <GitHubButton href={Bio.github}>Github Profile</GitHubButton></NavLink>
       </ButtonContainer>
     </NavContainer>
       {open && (
@@ -212,7 +215,7 @@ const Navbar = () => {
               setOpen(!open)
             }}>Education</MobileMenuLinks>
           <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }}
-           href="/" target="_blank">Github Profile</GitHubButton>
+           href={Bio.github} target="_blank">Github Profile</GitHubButton>
 
           </MobileMenu>
 

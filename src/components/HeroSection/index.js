@@ -4,6 +4,9 @@ import {Bio} from "../../data/constants";
 import Typewriter from "typewriter-effect";
 import HeroImg from "../../images/IMG_3733 CV.jpg";
 import HeroBgAnimation from "../../components/HeroBgAnimation/index";
+import Button from '@mui/material/Button';
+import SendIcon from '@mui/icons-material/Send';
+
 
 const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -206,6 +209,8 @@ border: 2px solid ${({ theme }) => theme.primary};
 }
 `;
 
+
+
 const Hero = () => {
   return (
     <div id='about'>
@@ -229,7 +234,10 @@ const Hero = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href ={Bio.resume} target="_blank">Check Resume</ResumeButton>
+            {/* <ResumeButton href ={Bio.resume} target="_blank">Check Resume</ResumeButton> */}
+            <Button href={Bio.resume} variant="contained" endIcon={<SendIcon />} size='large' target='blank'>
+              Check Resume
+            </Button>
           </HeroLeftContainer>
           <HeroRightContainer>
             <Image src={HeroImg} alt="DP"/>

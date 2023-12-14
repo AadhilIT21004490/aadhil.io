@@ -16,6 +16,7 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+padding: 10px 0 50px 0 ;
 `;
 
 const Wrapper = styled.div`

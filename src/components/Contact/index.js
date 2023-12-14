@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import axios from "axios"
 import { Snackbar } from '@mui/material';
 
 const Container = styled.div`
@@ -126,17 +127,34 @@ const Contact = () => {
 
   //hooks
   const [open, setOpen] = React.useState(false);
+  const [email,setEmail]=useState("");
+  const [name,setName]=useState("");
+  const [subject,setSubject]=useState("");
+  const [message,setMessage]=useState("");
   const form = useRef();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
-      .then((result) => {
-        setOpen(true);
-        form.current.reset();
-      }, (error) => {
-        console.log(error.text);
+    
+    try {
+      const response = await axios.post("https://portfolio-back-end-woad-three.vercel.app/location/fetch", {
+        text:message,
+        subject,
+        mail:email,
+        name:name
       });
+      console.log(response.data);
+    } catch (error) {
+      if (
+        error.response &&
+        error.response.data &&
+        error.response.data.message
+      ) {
+        console.log(error.response.data.message);
+      } else {
+        console.log("An error occurred while registering:", error);
+      }
+    }
   }
 
 
@@ -148,10 +166,22 @@ const Contact = () => {
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput placeholder="Your Email" name="from_email" value={email}
+            onChange={(e) => {
+              setEmail(e.target.value);
+            }} />
+          <ContactInput placeholder="Your Name" name="from_name" value={name}
+            onChange={(e) => {
+              setName(e.target.value);
+            }} />
+          <ContactInput placeholder="Subject" name="subject" value={subject}
+            onChange={(e) => {
+              setSubject(e.target.value);
+            }} />
+          <ContactInputMessage placeholder="Message" rows="4" name="message" value={message}
+            onChange={(e) => {
+              setMessage(e.target.value);
+            }} />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar

@@ -83,6 +83,16 @@ const Degree = styled.div`
         font-size: 12px;
     }
 `
+const Description = styled.div`
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary + 99};
+    margin-bottom: 10px;
+    @media only screen and (max-width: 768px){
+        font-size: 12px;
+    }
+`
 const Date = styled.div`
     font-size: 12px;
     font-weight: 400px;
@@ -103,6 +113,7 @@ const EducationCard = ({education}) => {
                 <Name>{education.school}</Name>
                 <Degree>{education.degree}</Degree>
                 <Date>{education.date}</Date>
+                <Description>{education.desc}</Description>
             </Body>
         </Top>
         {/* <Description>{experience.desc}
@@ -120,11 +131,6 @@ const EducationCard = ({education}) => {
             </>
         )}
         </Description> */}
-        {/* {experience.doc && (
-            <a href={experience.doc} target='new'>
-                <Document src={experience.doc} />
-            </a>
-        )} */}
     </Card>
   )
 }

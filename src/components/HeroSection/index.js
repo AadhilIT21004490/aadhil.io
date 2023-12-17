@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import {Bio} from "../../data/constants";
 import Typewriter from "typewriter-effect";
 import HeroImg from "../../images/IMG_3733 CV.jpg";
+import HeroImgs from "../../images/heros.png";
 import HeroBgAnimation from "../../components/HeroBgAnimation/index";
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
@@ -38,14 +39,16 @@ const HeroBg = styled.div`
   max-width: 1360px;
   overflow: hidden;
   padding: 0 30px;
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 44%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 
   @media (max-width: 960px) {
     justify-content: center;
     padding: 0 0px;
+    top: 50%;
+  left: 55%;
   }
 `;
 
@@ -191,12 +194,10 @@ color: ${({ theme }) => theme.text_primary + 95};
 
 const Image = styled.img`
 position: relative;
-width: 100%;
-height: 100%;
-max-width: 400px;
-max-height: 400px;
+width: 110%;
+height: 110%;
 border-radius: 50%;
-border: 2px solid ${({ theme }) => theme.primary};
+border: 0px solid ${({ theme }) => theme.primary};
 
 @media (max-width: 768px) {
   max-width: 400px;
@@ -240,7 +241,7 @@ const Hero = () => {
             </Button>
           </HeroLeftContainer>
           <HeroRightContainer>
-            <Image src={HeroImg} alt="DP"/>
+            <Image src={HeroImgs} alt="DP"/>
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>

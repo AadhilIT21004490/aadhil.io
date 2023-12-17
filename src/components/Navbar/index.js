@@ -2,6 +2,8 @@ import React from 'react'
 import styled, { useTheme } from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 import {DiCssdeck} from "react-icons/di";
+import {IoMdAnalytics} from "react-icons/io";
+import { BsFillClipboardDataFill } from "react-icons/bs";
 import {FaBars} from "react-icons/fa";
 import { Bio } from '../../data/constants';
 
@@ -173,7 +175,9 @@ const Navbar = () => {
       <NavLogo to="/">
 
         <a href='/' style={{ display: "flex",textDecoration: 'none', alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-          <DiCssdeck size="3rem" /> <Span>Aadhil</Span>
+          {/* <DiCssdeck size="3rem" />
+          <BsFillClipboardDataFill size="3rem" /> */}
+          <IoMdAnalytics size="2rem"/><Span>Aadhil</Span>
         </a>
       
       </NavLogo>

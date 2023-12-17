@@ -274,6 +274,14 @@ export const Bio = {
       degree: "Bachelor of Science (Hons) Information Technology Specialized in IT",
     },
     {
+      id: 0,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXeO0AfwoFFMFLSRyhMxVmHQ0tjHmHfElH_Gw2JpzLHrVMMhhismmjOGCnbegpgIJ1XXY&usqp=CAU",
+      school: "IDM Nations Campus",
+      date: "2016",
+      desc: "I have completed IDM International Diploma in Computing - Level 3 with Distinction on July 2016 in IDM Nations Campus.",
+      degree: "International Diploma in Computing",
+    },
+    {
       id: 2,
       img: "https://yt3.googleusercontent.com/ytc/APkrFKa_Sk_29pjq8G00EXRXj9nN1eZT81VicmI2-rW3=s900-c-k-c0x00ffffff-no-rj",
       school: "Ak/ Muslim Central College - Akkaraipattu",
@@ -306,39 +314,9 @@ export const Bio = {
     //     "Redux",
     //   ],
     //   category: "web app",
-    //   github: "https://github.com/rishavchanda/Trackify",
+    //   github: "",
     //   webapp: "https://trackify.duckdns.org",
     // },
-
-
-    // {
-    //   id: 0,
-    //   title: "Podstream",
-    //   date: "Apr 2023 - May 2023",
-    //   description:
-    //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    //   image:
-    //     "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    //   category: "data eng",
-    //   github: "https://github.com/rishavchanda/Podstream",
-    //   webapp: "https://podstream.netlify.app/",
-    //   member: [
-    //     {
-    //       name: "Rishav Chanda",
-    //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //       github: "https://github.com/rishavchanda/",
-    //     },
-    //     {
-    //       name: "Upasana Chaudhuri",
-    //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //       github: "https://github.com/upasana0710",
-    //     },
-    //   ],
-    // },
-
 
     // {
     //   id: 1,
@@ -357,7 +335,7 @@ export const Bio = {
     //     "NodeMailer",
     //   ],
     //   category: "web app",
-    //   github: "https://github.com/rishavchanda/Project-Management-App",
+    //   github: "",
     //   webapp: "https://vexa-app.netlify.app/",
     // },
     // {
@@ -370,20 +348,20 @@ export const Bio = {
     //     "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
     //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     //   category: "data eng",
-    //   github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
+    //   github: "",
     //   webapp: "https://brain-tumor.netlify.app/",
     //   member: [
     //     {
-    //       name: "Rishav Chanda",
-    //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //       github: "https://github.com/rishavchanda/",
+    //       name: "",
+    //       img: "",
+    //       linkedin: "",
+    //       github: "",
     //     },
     //     {
-    //       name: "Upasana Chaudhuri",
-    //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //       github: "https://github.com/upasana0710",
+    //       name: "",
+    //       img: "",
+    //       linkedin: "/",
+    //       github: "",
     //     },
     //   ],
     // },
@@ -448,7 +426,7 @@ export const Bio = {
         "https://raw.githubusercontent.com/AadhilIT21004490/aadhil.io/aws/src/images/web_app_1.jpeg",
         tags: ["Java", "SQLite", "Android Studio", "Figma"],
         category: "web app",
-        github: "https://github.com/rishavchanda/Todo-Web-App",
+        github: "",
         webapp: "https://www.linkedin.com/posts/aadhil-shihabdeen-a09730204_sliit-guru-is-a-mobile-application-which-activity-6992496196950863872-MNZF?utm_source=share&utm_medium=member_desktop",
       },
       {
@@ -492,16 +470,16 @@ export const Bio = {
     },
     {
       id: 10,
-      title: "Job Finding App",
-      date: "Jun 2023 - Jul 2023",
+      title: "Coming soon..",
+      date: "Scheduled for Dec 2023",
       description:
-        "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+        "",
       image:
-        "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-      tags: ["React Native", "JavaScript", "Axios"],
+        "https://raw.githubusercontent.com/AadhilIT21004490/aadhil.io/aws/src/images/data_eng_1.jpg",
+      tags: ["AWS", "AWS Glue", "AWS Crawler","AWS Athena", "AWS EC2", "AWS S3"],
       category: "data eng",
-      github: "https://github.com/rishavchanda/Job-finder-App",
-      webapp: "https://github.com/rishavchanda/Job-finder-App",
+      github: "",
+      webapp: "",
     },
     // {
     //   id: 6,

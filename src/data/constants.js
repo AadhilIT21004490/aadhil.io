@@ -393,7 +393,7 @@ export const Bio = {
       date: "July 2023",
       description:
         "data analytics and data visualization techniques to determine the top 11 cricket players in the T20 World Cup of 2022/23. The combination of web scraping, data cleaning, transformation, modeling, and visualization in Python, Pandas, Power Query, and Power BI has resulted in valuable insights for cricket enthusiasts and decision-makers. The dashboards and visuals provide an intuitive way to explore player performance and make informed selections for future tournaments.",
-      image:"",
+      image:"https://raw.githubusercontent.com/AadhilIT21004490/aadhil.io/aws/src/images/data_ana_1.jpeg",
       tags: ["Jupyter Notebook", "Pandas", "Numpy", "Power Bi"],
       category: "data ana",
       github: "#",
@@ -406,7 +406,7 @@ export const Bio = {
       description:
         "Our Sales Insight Data Analytics project harnesses the power of Python along with key data analysis libraries like Pandas and NumPy. We employ these tools to dive deep into sales data, extracting valuable insights and trends. Additionally, we leverage Power Query for data preparation and cleansing, ensuring accuracy and completeness.Using Power BI, we transform these insights into intuitive visualizations and interactive dashboards. These visual representations empower stakeholders to grasp complex sales patterns, identify opportunities, and make informed strategic decisions swiftly. Ultimately, our approach enables data-driven strategies, enhancing sales performance and optimizing business outcomes.",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+        "https://raw.githubusercontent.com/AadhilIT21004490/aadhil.io/aws/src/images/data_ana_4.jpg",
       tags: ["Jupyter Notebook", "Pandas", "Numpy","Power Query" , "Power Bi"],
       category: "data ana",
       github: "",
@@ -419,7 +419,7 @@ export const Bio = {
       description:
         "HR domain Data Analytics project harnesses the power of Python, Pandas, and NumPy to delve into intricate HR datasets. Leveraging the robust capabilities of Python's libraries alongside the data manipulation prowess of Pandas and the numerical computing strength of NumPy, we extract, clean, and transform vast HR data.Additionally, we utilize Power Query to streamline data connections and transformations, ensuring seamless integration across diverse data sources. This enables us to prepare rich, structured datasets optimized for analysis and visualization.Our ultimate visualization and insights presentation are crafted using Power BI, where we blend the transformed data into compelling visual narratives. Through intuitive dashboards and reports, we unearth actionable HR insights, aiding in strategic decision-making and offering comprehensive views of key HR metrics.Overall, our project amalgamates cutting-edge Python-based data analytics with the efficiency and visualization prowess of Power Query and Power Benabling a comprehensive analysis and presentation of HR-related data for informed decision-making.",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+        "https://raw.githubusercontent.com/AadhilIT21004490/aadhil.io/aws/src/images/data_ana_3.jpg",
       tags: ["Jupyter Notebook", "Pandas", "Numpy","Power Query" , "Power Bi"],
       category: "data ana",
       github: "",
@@ -432,11 +432,63 @@ export const Bio = {
       description:
         "Coupling Python's Pandas and NumPy with Power Query and Power BI, our Hilton Hotel Insights project dives deep into data. We extract, clean, and analyze vast datasets to unveil actionable trends and operational insights. Our visualizations via Power BI transform complex data into clear, strategic narratives, empowering Hilton to make informed decisions.",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+        "https://raw.githubusercontent.com/AadhilIT21004490/aadhil.io/aws/src/images/data_ana_2.jpg",
       tags: ["Jupyter Notebook", "Pandas", "Numpy","Power Query" , "Power Bi"],
       category: "data ana",
       github: "",
       webapp: "",
+    },
+    {
+      id: 5,
+      title: "SLIIT Guru - Student companion Mobile App",
+      date: "Aug 2022",
+      description:
+        "SLIIT GURU, our mobile app, designed by our team, packs four core functions for a seamless academic journey. The GPA Calculator crafts accurate grade point averages and generates detailed reports. Customizable 'Grade Settings' offer flexibility. To Do simplifies daily tasks, Academic Reminder acts as a personalized alarm for future events, and Social Linker serves as a repository for essential links, enhancing accessibility.Built using Java and Android Studio, we've integrated SQLite for efficient data management. This multifaceted app streamlines academic organization, offering a versatile toolkit for students to excel in their daily routines.",
+      image:
+        "https://raw.githubusercontent.com/AadhilIT21004490/aadhil.io/aws/src/images/web_app_1.jpeg",
+        tags: ["Java", "SQLite", "Android Studio", "Figma"],
+        category: "web app",
+        github: "https://github.com/rishavchanda/Todo-Web-App",
+        webapp: "https://www.linkedin.com/posts/aadhil-shihabdeen-a09730204_sliit-guru-is-a-mobile-application-which-activity-6992496196950863872-MNZF?utm_source=share&utm_medium=member_desktop",
+      },
+      {
+        id: 7,
+        title: "IPS - Web Development",
+      date: "Nov 2022",
+      description:
+      "Introducing the web application for Integrated Project Solution LLC, a leading construction company in the USA. Developed using a powerful tech stack including React, HTML, CSS, Tailwind, and Node Mailer, this platform embodies innovation and efficiency.Accessible via www.ipsllcusa.com, our application delivers seamless user experiences. Tailored for the construction industry, it offers robust functionalities and intuitive design. From streamlined communication to enhanced project management, our solution optimizes workflows, facilitating smoother operations for Integrated Project Solution LLC.",
+      image:
+      "https://raw.githubusercontent.com/AadhilIT21004490/aadhil.io/aws/src/images/web_app_3.jpg",
+      tags: ["HTML", "CSS", "Tailwind", "React", "NodeMailer"],
+      category: "web app",
+      github: "",
+      webapp: "https://www.ipsllcusa.com/",
+    },
+    {
+      id: 7,
+      title: "Al Bizra LLC - Web Development",
+      date: "Dec 2022",
+      description:
+      "Another web application tailored for Al Bizra LLC, the foremost tea brand in Dubai. Leveraging the same cutting-edge technology stack of React, HTML, CSS, Tailwind, and Node Mailer, this platform signifies a fusion of innovation and excellence in the digital space.Accessible at www.al-bizra.com, our application embodies sophistication and functionality. Crafted specifically for a premier tea brand, it delivers an immersive user experience, integrating seamless communication and robust management features. This solution empowers Al Bizra LLC to elevate its digital presence, ensuring an enhanced customer journey and unparalleled brand engagement.",
+      image:
+      "https://raw.githubusercontent.com/AadhilIT21004490/aadhil.io/aws/src/images/web_app_2.jpg",
+      tags: ["HTML", "CSS", "Tailwind", "React", "NodeMailer"],
+      category: "web app",
+      github: "",
+      webapp: "https://www.al-bizra.com/",
+    },
+    {
+      id: 7,
+      title: "A2 Labz - Web Development",
+      date: "Nov 2022",
+      description:
+      "our latest web application tailored for A2 Labz, a burgeoning software solutions company based in Sri Lanka. Leveraging the same cutting-edge technology stack including React, HTML, CSS, Tailwind, and Node Mailer, our platform embodies innovation and next-gen capabilities.Accessible through its dedicated web domain, our application encapsulates A2 Labz's vision for modern software solutions. Seamlessly integrating functionality and design, this solution caters to diverse software needs, streamlining processes and empowering growth for A2 Labz.",
+      image:
+      "https://raw.githubusercontent.com/AadhilIT21004490/aadhil.io/aws/src/images/web_app_4.jpg",
+      tags: ["HTML", "CSS", "Tailwind", "React", "NodeMailer"],
+      category: "web app",
+      github: "",
+      webapp: "https://a2labz.live/",
     },
     {
       id: 10,
@@ -451,58 +503,32 @@ export const Bio = {
       github: "https://github.com/rishavchanda/Job-finder-App",
       webapp: "https://github.com/rishavchanda/Job-finder-App",
     },
-    {
-      id: 5,
-      title: "Todo Web App",
-      date: "Jun 2021",
-      description:
-        " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-      image:
-        "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-      tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Todo-Web-App",
-      webapp: "https://rishav-react-todo.netlify.app/",
-    },
-    {
-      id: 6,
-      title: "Breaking Bad",
-      date: "Jun 2021",
-      description:
-        "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-      image:
-        "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-      tags: ["React Js", "API", "Axios", "Node JS"],
-      category: "data eng",
-      github: "https://github.com/rishavchanda/Breaking-Bad",
-      webapp: "https://breaking-bad-webapp.netlify.app",
-    },
-    {
-      id: 7,
-      title: "Quiz App",
-      date: "Dec 2020 - Jan 2021",
-      description:
-        "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-      image:
-        "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-      tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-      category: "data ana",
-      github: "https://github.com/rishavchanda/Quiz-Earn",
-      webapp: "https://github.com/rishavchanda/Quiz-Earn",
-    },
-    {
-      id: 8,
-      title: "Face Recognition",
-      date: "Jan 2021",
-      description:
-        "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-      image:
-        "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-      tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-      category: "data eng",
-      github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-      webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    },
+    // {
+    //   id: 6,
+    //   title: "Breaking Bad",
+    //   date: "Jun 2021",
+    //   description:
+    //     "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
+    //   image:
+    //     "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
+    //   tags: ["React Js", "API", "Axios", "Node JS"],
+    //   category: "data eng",
+    //   github: "https://github.com/rishavchanda/Breaking-Bad",
+    //   webapp: "https://breaking-bad-webapp.netlify.app",
+    // },
+    // {
+    //   id: 8,
+    //   title: "Face Recognition",
+    //   date: "Jan 2021",
+    //   description:
+    //     "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+    //   image:
+    //     "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
+    //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+    //   category: "data eng",
+    //   github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    // },
   ];
   
   export const TimeLineData = [

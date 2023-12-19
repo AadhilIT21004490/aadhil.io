@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { useRef } from 'react';
 import axios from "axios"
 import { Snackbar } from '@mui/material';
+import toast from 'react-hot-toast';
 
 const Container = styled.div`
 display: flex;
@@ -143,6 +144,9 @@ const Contact = () => {
         name:name
       });
       console.log(response.data);
+      if(response.data){
+        toast.success("Message Sent Successfully!");
+      }
     } catch (error) {
       if (
         error.response &&
@@ -150,8 +154,10 @@ const Contact = () => {
         error.response.data.message
       ) {
         console.log(error.response.data.message);
+        toast.error(error)
       } else {
         console.log("An error occurred while registering:", error);
+        toast.error(error)
       }
     }
   }

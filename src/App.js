@@ -12,6 +12,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ProjectDetails from './components/ProjectDetails';
+import { Toaster } from 'react-hot-toast';
 
 
 const Body = styled.div`
@@ -46,6 +47,7 @@ function App() {
           <Education />
           <Contact />
         </Wrapper>
+        <Toaster position='bottom-center'/>
         <Footer />
         {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />

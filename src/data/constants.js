@@ -8,7 +8,9 @@ export const Bio = {
       "Developer"
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "Currently pursuing my undergraduate degree in Information Technology at SLIIT. My fascination with the world of Data Science drives me to explore, learn, and apply my skills to real-world challenges. In my journey, I've honed a versatile skill set, from Python and SQL to AWS and Power BI. I've dived into the complexities of data, mastering ETL and Data Warehousing. I'm actively seeking opportunities for internships in the Data Science field, where I can apply and expand my knowledge, work on real-world data challenges, and contribute to data-driven decision-making.",
+
+    tag : "~Let's connect and explore the endless possibilities of data together.",
     github: "https://github.com/AadhilIT21004490",
     resume:
       "https://drive.google.com/file/d/1t6X-m426xj0AIYAPqYqK0JRHpWhcotmR/view?usp=sharing",

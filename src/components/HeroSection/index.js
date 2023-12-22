@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components';
 import {Bio} from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/IMG_3733 CV.jpg";
 import HeroImgs from "../../images/heros.png";
 import HeroBgAnimation from "../../components/HeroBgAnimation/index";
 import Button from '@mui/material/Button';
@@ -145,6 +144,7 @@ const SubTitle = styled.div`
 font-size: 20px;
 line-height: 32px;
 margin-bottom: 42px;
+text-align: justify;
 color: ${({ theme }) => theme.text_primary + 95};
 
 @media (max-width: 960px) {
@@ -194,8 +194,8 @@ color: ${({ theme }) => theme.text_primary + 95};
 
 const Image = styled.img`
 position: relative;
-width: 110%;
-height: 110%;
+width: 120%;
+height: 120%;
 border-radius: 50%;
 border: 0px solid ${({ theme }) => theme.primary};
 
@@ -235,6 +235,7 @@ const Hero = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
+            <SubTitle>{Bio.tag}</SubTitle>
             {/* <ResumeButton href ={Bio.resume} target="_blank">Check Resume</ResumeButton> */}
             <Button href={Bio.resume} variant="contained" endIcon={<SendIcon />} size='large' target='blank'>
               Check Resume
